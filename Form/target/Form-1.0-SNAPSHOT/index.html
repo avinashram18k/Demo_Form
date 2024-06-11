@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Details</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <fieldset><legend><h1>Employee Details</h1></legend>
+    
+        <form action="displayValue.jsp" method="post">
+            <table style="width: 30;">
+    <tr>
+<td>Enter Your Name :</td>
+    <td> <input type="text" name="Name" id="name"></td> 
+    </tr>
+
+<tr>
+    <td>Enter Employee ID :</td>
+<td><input type="text" name="Eid" id="eid"></td> 
+</tr>
+
+<tr>
+    <td>Age :</td>
+<td><input type="text" name="age" id="age"></td> 
+</tr>
+
+<tr>
+    <td>Role :</td>
+<td><input type="text" name="Role" id="Erole"></td> 
+</tr>
+
+<tr>
+    <td>Enter Your Email :</td>
+<td><input type="text" name="email" id="email"></td> 
+</tr>
+
+<tr>
+    <td>Salary :</td>
+<td><input type="text" name="Salary" id="Esalary"></td>
+</tr>
+
+<tr>
+    <td>Gender:</td>
+<td><input type="radio" name="gender" value="male">Male</td>
+<td><input type="radio" name="gender" value="female">Female</td>
+</tr>
+
+
+
+<td><input type="submit" value="Submit" onclick="ThankYou()" ></td>
+    <td><input type="reset" value="Reset" ></td>
+
+</table>
+</form>
+</fieldset>
+
+        <script>
+            function ThankYou(){
+                alert("Your Form has been submitted!!!");
+            }
+        </script>
+    </body>
+</html>
